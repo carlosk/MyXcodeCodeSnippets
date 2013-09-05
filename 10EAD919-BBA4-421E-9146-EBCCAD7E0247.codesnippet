@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>cocellinit</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//创建的时候被调用
+-(void)createViews{
+    
+}
+-(void)createData{
+    
+}
+//点击了某个按钮
+-(BOOL)onClick:(UIView *)sender{
+    return NO;
+}
+//Cell的高度 子类必须要实现。Cell的高度要在cell类里调整
++(float )getCellHeight{
+    return 10.0f;
+}
+//默认是屏幕的宽度
++(float )getCellWidth{
+    return kFBaseWidth;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>10EAD919-BBA4-421E-9146-EBCCAD7E0247</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>COCell的初始化</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>coInit</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark View初始化
+-(void)initViews{
+    if ([self initCONav]) {
+        
+    }
+    
+}
+- (void)initViewsOnResume{
+    
+}
+- (BOOL)initCONav{
+    if (_coNav) {
+        return YES;
+    }
+    [self initCONavWithTitleIVName:@"kIUserInfoEditTitle"];
+    _coNav.rightBtn.hidden = YES;
+    return YES;
+}
+
+#pragma mark 数据
+
+- (void)initData
+{
+    
+}
+- (void)initDataOnResume{
+    
+}
+#pragma mark 网络连接
+- (void)returnDefault:(ThreadMessage *)threadMessage
+{
+    
+}
+
+#pragma mark 按钮事件
+-(void)registerEven{
+    //    __block typeof(self)bSelf = self;
+}
+- (void)onClickWithXib:(UIView *)sender{
+    
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2962726D-1A3E-4540-9EB3-A280AE7967EF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>M文件初始化</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
